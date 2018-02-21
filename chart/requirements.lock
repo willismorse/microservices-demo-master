@@ -1,9 +1,9 @@
 dependencies:
 - name: hostapp
   repository: https://raw.githubusercontent.com/willismorse/microservices-demo-microfrontend-hostapp/master/
-  version: 0.1.0
+  version: 0.1.1
 - name: products
   repository: https://raw.githubusercontent.com/willismorse/microservices-demo-microfrontend-products/master/
-  version: 0.1.0
-digest: sha256:ea99f3eb22807529e785b2fe7a93c6fefa72d84f8fd7eb83e84a2a9465848e4a
-generated: 2018-02-20T22:24:54.572927-05:00
+  version: 0.1.2
+digest: sha256:6abf7048ada6012688d03bf0ed137e717b24687a80c540e2ff36b9fbf9b7531a
+generated: 2018-02-21T09:00:28.126905-05:00
