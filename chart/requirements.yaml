@@ -1,7 +1,13 @@
+appr:
+- &id001
+  name: pfs-ui
+  repository: file://appr_charts/willismorsecoreinfo/pfs-ui
+  version: 0.1.0
 dependencies:
-   - name: hostapp
-     version: 0.1.1
-     repository: https://raw.githubusercontent.com/willismorse/microservices-demo-microfrontend-hostapp/master/
-   - name: products
-     version: 0.1.2
-     repository: https://raw.githubusercontent.com/willismorse/microservices-demo-microfrontend-products/master/    
+- name: products
+  repository: https://raw.githubusercontent.com/willismorse/microservices-demo-microfrontend-products/master/
+  version: 0.1.2
+- *id001
+- name: hostapp
+  repository: https://raw.githubusercontent.com/willismorse/microservices-demo-microfrontend-hostapp/master/
+  version: 0.1.1
