@@ -24,4 +24,8 @@ spec:
         backend:
           serviceName: hostapp
           servicePort: 8080
+      - path: /pfs-ui
+        backend:
+          serviceName: pfs-ui
+          servicePort: 8080
 
