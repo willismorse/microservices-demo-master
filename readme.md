@@ -4,6 +4,25 @@ Assembles a cluster of microservices.
 Uses the Sock Shop catalogue database microservice from https://microservices-demo.github.io/, and adds some microfrontend microservices.
 
 
+Part of a collection of demo repos:
+
+## Master chart to install everything
+https://github.com/willismorse/microservices-demo-master
+
+## Hostapp µFrontend
+https://github.com/willismorse/microservices-demo-microfrontend-hostapp
+
+## Header µFrontend
+https://github.com/willismorse/microservices-demo-microfrontend-header
+
+## Products µFrontend
+https://github.com/willismorse/microservices-demo-microfrontend-products
+
+## Catalog DB µService
+https://github.com/willismorse/microservices-demo-microservice-catalog
+
+
+
 # Commands
 
 ```
