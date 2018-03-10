@@ -1,24 +1,23 @@
 
-Assembles a cluster of microservices. 
+This repo provides a Helm chart to assemble a cluster of microservices. 
 
 Uses the Sock Shop catalogue database microservice from https://microservices-demo.github.io/, and adds some microfrontend microservices.
 
+This is part of a collection of demo repos:
 
-Part of a collection of demo repos:
-
-## Master chart to install everything
+### This repo. Master chart to install everything
 https://github.com/willismorse/microservices-demo-master
 
-## Hostapp µFrontend
+### Hostapp µFrontend
 https://github.com/willismorse/microservices-demo-microfrontend-hostapp
 
-## Header µFrontend
+### Header µFrontend
 https://github.com/willismorse/microservices-demo-microfrontend-header
 
-## Products µFrontend
+### Products µFrontend
 https://github.com/willismorse/microservices-demo-microfrontend-products
 
-## Catalog DB µService
+### Catalog DB µService
 https://github.com/willismorse/microservices-demo-microservice-catalog
 
 
