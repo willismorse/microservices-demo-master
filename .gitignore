@@ -51,6 +51,7 @@ typings/
 # Output of 'npm pack'
 *.tgz
 
+
 # Yarn Integrity file
 .yarn-integrity
 
@@ -61,3 +62,7 @@ typings/
 .next
 /scratch/
 *.DS_Store
+
+# helm dependencies
+chart/appr_charts/*
+chart/charts/*.tgz

@@ -1,0 +1,12 @@
+dependencies:
+   - name: hostapp
+     version: 0.1.1
+     repository: https://raw.githubusercontent.com/willismorse/microservices-demo-microfrontend-hostapp/master/
+   - name: products
+     version: 0.1.2
+     repository: https://raw.githubusercontent.com/willismorse/microservices-demo-microfrontend-products/master/   
+
+appr:
+  - name: quay.coredev.cloud/willismorsecoreinfo/pfs-ui
+    repository: appr://
+    version: 0.1.0

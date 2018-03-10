@@ -8,9 +8,6 @@ metadata:
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
 
-  annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
-
 spec:
   rules:
   - host:
@@ -20,12 +17,17 @@ spec:
         backend:
           serviceName: products
           servicePort: 8080
+      - path: /header
+        backend:
+          serviceName: header
+          servicePort: 8080    
       - path: /
         backend:
           serviceName: hostapp
           servicePort: 8080
-      - path: /pfs-ui
+      - path: /catalogue
         backend:
-          serviceName: pfs-ui
-          servicePort: 8080
+          serviceName: catalogue
+          servicePort: 80
+      
 

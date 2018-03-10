@@ -1,0 +1,13 @@
+dependencies:
+- name: microservices-demo-microfrontend-hostapp-chart
+  repository: https://raw.githubusercontent.com/willismorse/microservices-demo-microfrontend-hostapp/master/
+  version: 0.1.2
+- name: microservices-demo-microfrontend-products-chart
+  repository: https://raw.githubusercontent.com/willismorse/microservices-demo-microfrontend-products/master/
+  version: 0.1.3
+- name: microservices-demo-microservice-catalog-chart
+  repository: https://raw.githubusercontent.com/willismorse/microservices-demo-microservice-catalog/master/
+  version: 0.1.1
+- name: microservices-demo-microfrontend-header-chart
+  repository: https://raw.githubusercontent.com/willismorse/microservices-demo-microfrontend-header/master/
+  version: 0.1.4  
