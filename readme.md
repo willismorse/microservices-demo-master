@@ -30,6 +30,9 @@ helm repo add microservices-demo-microfrontend-hostapp  https://raw.githubuserco
 helm repo add microservices-demo-microfrontend-products  https://raw.githubusercontent.com/willismorse/microservices-demo-microfrontend-products/master/
 helm repo add microservices-demo-microfrontend-header  https://raw.githubusercontent.com/willismorse/microservices-demo-microfrontend-header/master/
 helm repo add microservices-demo-microservice-catalog  https://raw.githubusercontent.com/willismorse/microservices-demo-microservice-catalog/master/
+cd microservices-demo-master-chart/
+helm dep up
+cd ..
 helm install microservices-demo-master-chart/ --namespace microservices-demo
 
 # Upgrade a current release. Since all our docker images are tagged with latest, this will magically pull any new images that are available since the last intall/upgrade of this chart
