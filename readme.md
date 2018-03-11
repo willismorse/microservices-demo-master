@@ -34,7 +34,7 @@ cd microservices-demo-master-chart/
 helm dep up
 cd ..
 helm install microservices-demo-master-chart/ --namespace microservices-demo
-# Note the NAME field in the output this is the Helm Release Name for this instance of the installed collection of parts.
+# Note the NAME field in the output. This is Helm's generated Release Name for this instance of the installed collection of parts.
 # You will use this release name in subsequent calls to the `helm` command for various admin tasks
 
 # View all releases that you have installed
