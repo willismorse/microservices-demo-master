@@ -10,6 +10,6 @@ dependencies:
   version: 0.1.1
 - name: microservices-demo-microfrontend-header-chart
   repository: https://raw.githubusercontent.com/willismorse/microservices-demo-microfrontend-header/master/
-  version: 0.1.4
-digest: sha256:c20acd15a2719b1cdfef719416fb8ba12b8b1659bdda2058b9ddfc7e7b7ed098
-generated: 2018-03-10T12:28:03.781791-05:00
+  version: 0.1.5
+digest: sha256:63f2a72c2b59190fed971ba61247dba6b2e7700f06840f8dde09e75e30be9747
+generated: 2018-03-13T19:28:52.687747-04:00

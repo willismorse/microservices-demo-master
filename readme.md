@@ -40,9 +40,15 @@ helm install microservices-demo-master-chart/ --namespace microservices-demo
 # View all releases that you have installed
 helm list
 
-# Upgrade a current release. Since all our docker images that are referenced in these charts pull from the ':latest' tag, this will magically pull any new images that are available since the last intall/upgrade of this chart
-helm upgrade <release-name> microservices-demo-master-chart/
+# Upgrade child charts
+cd microservices-demo-master-chart/
+helm dep up
+cd ..
 
+# Upgrade a current Minikube release to reflect changes in charts or images. Since all our docker images that are referenced in these charts pull from the ':latest' tag, this will magically pull any new images that are available since the last intall/upgrade of this chart
+<delete pods/deployments as appropriate>
+helm upgrade <release-name> microservices-demo-master-chart/
+helm upgrade piquant-hummingbird microservices-demo-master-chart/
 # Delete a release. This will shutdown and remove all parts that were installed previously
 helm delete <release-name>
 ```
