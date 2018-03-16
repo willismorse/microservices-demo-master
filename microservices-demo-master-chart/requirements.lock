@@ -4,12 +4,12 @@ dependencies:
   version: 0.1.2
 - name: microservices-demo-microfrontend-products-chart
   repository: https://raw.githubusercontent.com/willismorse/microservices-demo-microfrontend-products/master/
-  version: 0.1.3
+  version: 0.1.4
 - name: microservices-demo-microservice-catalog-chart
   repository: https://raw.githubusercontent.com/willismorse/microservices-demo-microservice-catalog/master/
   version: 0.1.1
 - name: microservices-demo-microfrontend-header-chart
   repository: https://raw.githubusercontent.com/willismorse/microservices-demo-microfrontend-header/master/
   version: 0.1.5
-digest: sha256:63f2a72c2b59190fed971ba61247dba6b2e7700f06840f8dde09e75e30be9747
-generated: 2018-03-13T19:28:52.687747-04:00
+digest: sha256:d6b08bbeec60f46e50338d642609a904d3083bc1161e4d92288172f1729d6ef4
+generated: 2018-03-16T15:04:11.828297-04:00
